@@ -79,6 +79,11 @@
       "locations": {
         "web-root": "drupal/"
       }
+    },
+    "patches": {
+      "friends-of-behat/mink-extension": {
+        "setClient error from PR16": "https://github.com/FriendsOfBehat/MinkExtension/files/9480850/16.txt"
+      }
     }
   },
   "config": {
