@@ -18,7 +18,7 @@ Feature: DrupalContext with background steps
       | Node one |
       | Node two |
 
-  Scenario Outline:
+  Scenario Outline: Testing login
     Given I am not logged in
 
     Examples:
