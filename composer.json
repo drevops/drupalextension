@@ -27,7 +27,7 @@
     "friends-of-behat/mink-extension": "^2",
     "behat/mink-goutte-driver": "~1|^2",
     "behat/mink-selenium2-driver": "~1.1",
-    "drupal/drupal-driver": "^2.1.0",
+    "drupal/drupal-driver": "dev-feature/drupal-10 as 2.1.0-dev",
     "symfony/browser-kit": "^3.4|~4.4|^6",
     "symfony/dependency-injection": "~3.0|~4.4|^6",
     "symfony/translation": "^3.4|~4.4|^6",
@@ -58,6 +58,12 @@
       "Drupal\\Exception": "src/",
       "Drupal\\DrupalExtension": "src/",
       "Drupal\\MinkExtension": "src/"
+    }
+  },
+  "repositories": {
+    "drupal/drupal-driver": {
+      "type": "vcs",
+      "url": "https://github.com/drevops/DrupalDriver"
     }
   },
   "extra": {
