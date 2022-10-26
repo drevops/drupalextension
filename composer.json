@@ -24,7 +24,7 @@
   "require": {
     "behat/behat": "~3.2",
     "behat/mink": "~1.5",
-    "friends-of-behat/mink-extension": "^2",
+    "friends-of-behat/mink-extension": "^2.7.2",
     "behat/mink-goutte-driver": "~1|^2",
     "behat/mink-selenium2-driver": "~1.1",
     "drupal/drupal-driver": "dev-feature/drupal-10 as 2.1.0-dev",
@@ -78,11 +78,6 @@
     "drupal-scaffold": {
       "locations": {
         "web-root": "drupal/"
-      }
-    },
-    "patches": {
-      "friends-of-behat/mink-extension": {
-        "setClient error from PR16": "https://github.com/FriendsOfBehat/MinkExtension/files/9480850/16.txt"
       }
     }
   },
